@@ -1,6 +1,7 @@
 .header{
   padding: 30px 80px 40px;
   display: flex;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ffff;
@@ -8,12 +9,13 @@
   position: relative;
   height: 800px;
   flex-direction: column;
+  z-index: 1;
   }
 
   .header__title {
     margin: 183px 0 0;
     max-width: 729px;
-    font-family: "Inter";
+    font-family: "Inter, Arial, sans-serif";
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
@@ -22,9 +24,9 @@
   }
 
   .header__description {
-    margin-top: 28px 0 0;
+    margin: 28px 0 0;
     max-width: 683px;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif, Times New Roman, Georgia";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -37,6 +39,7 @@
     height: 568px;
     top: 124px;
     right: 5px;
+    z-index: -1;
   }
 
   .header__footer {
@@ -44,7 +47,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    font-family: "Inter";
+    font-family: "Inter, Arial, sans-serif";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -54,7 +57,7 @@
 
   .header__paragraph {
     margin: 0;
-    font-family: "Inter";
+    font-family: "Inter, Arial, sans-serif";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -64,7 +67,8 @@
 
   .header__span-accent {
     display: block;
-    font-family: "Noto Serif";
+    font-weight: normal;
+    font-family: "Noto Serif, Times New Roman, Georgia";
     font-style: italic;
     color: #3f96f3;
   }
