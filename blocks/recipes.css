@@ -23,7 +23,7 @@
 }
 
 .recipes__title {
-  font-family: "Inter, Arial, sans-serif";
+  font-family: "Inter", Arial sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -34,7 +34,7 @@
 }
 
 .recipes__subtitle {
-  font-family: "Noto Serif, Times New Roman, Georgia";
+  font-family: "Noto Serif", "Times New Roman", Georgia;
   font-style: normal;
   font-weight:normal;
   font-size: 20px;
@@ -47,11 +47,11 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  font-family: "Inter, Arial, sans-serif";
+  font-family: "Inter", Arial sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  margin: 0;
+  margin: 24px 0 0;
   padding: 0;
   line-height: 30px;
   color: #ffff;
